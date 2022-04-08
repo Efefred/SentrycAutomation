@@ -82,7 +82,7 @@ A *Test Readiness Checklist* will checked before the execution Test scripts and 
 ## Steps to Run the Tests
 * Click on the Terminal link
 * Select *New Terminal* from the drop-down
-* You will the project directory in the Terminal window
+* You will see the project directory in the Terminal window
 * Use the *npm run* command to run in either *headed* or *headless* mode as specified in package.json
 e.g. 
     ```yaml 
