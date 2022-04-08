@@ -15,8 +15,7 @@
             "quite": true,
             "overwrite": false,
             "html": false,
-            "json": true,
-            "video": false
+            "json": true
         }
     }
 
