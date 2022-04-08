@@ -1,0 +1,127 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-08T04:48:52.442Z",
+    "end": "2022-04-08T04:49:00.285Z",
+    "duration": 7843,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "ad66937f-946a-4dd2-acc8-12ae766c70b4",
+      "title": "",
+      "fullFile": "cypress/integration/ForgotPassword.spec.js",
+      "file": "cypress/integration/ForgotPassword.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "fa3f176f-5bb1-49f5-b0c7-c895ba178b23",
+          "title": "Forgot Password",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Testing for Forgot Password Link",
+              "fullTitle": "Forgot Password Testing for Forgot Password Link",
+              "timedOut": null,
+              "duration": 7570,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.forgotPasswordLink();",
+              "err": {},
+              "uuid": "5b866605-57db-4bf1-aa9d-b81854411273",
+              "parentUUID": "fa3f176f-5bb1-49f5-b0c7-c895ba178b23",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Testing for Email Field on Forgot Password Page",
+              "fullTitle": "Forgot Password Testing for Email Field on Forgot Password Page",
+              "timedOut": null,
+              "duration": 191,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.emailFieldForgotPassword();",
+              "err": {},
+              "uuid": "e122abcb-a9d5-4ac2-831d-b546317a46da",
+              "parentUUID": "fa3f176f-5bb1-49f5-b0c7-c895ba178b23",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "5b866605-57db-4bf1-aa9d-b81854411273",
+            "e122abcb-a9d5-4ac2-831d-b546317a46da"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 7761,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "video": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

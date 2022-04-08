@@ -1,0 +1,127 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-08T04:49:21.129Z",
+    "end": "2022-04-08T04:49:27.020Z",
+    "duration": 5891,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "6407dc92-8821-4132-8000-7d0b8baff5bc",
+      "title": "",
+      "fullFile": "cypress/integration/TermsAndConditions.spec.js",
+      "file": "cypress/integration/TermsAndConditions.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "16df1237-ab45-4253-b957-36790cea9374",
+          "title": "Terms And Conditions",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Testing for Terms and Conditions",
+              "fullTitle": "Terms And Conditions Testing for Terms and Conditions",
+              "timedOut": null,
+              "duration": 4715,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.terms();",
+              "err": {},
+              "uuid": "8e4f1592-e17e-4e47-b1a2-ab78369ad0bb",
+              "parentUUID": "16df1237-ab45-4253-b957-36790cea9374",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Testing for Terms and Conditions",
+              "fullTitle": "Terms And Conditions Testing for Terms and Conditions",
+              "timedOut": null,
+              "duration": 1093,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.conditions();",
+              "err": {},
+              "uuid": "abd7c19e-cf27-43f1-832d-6f4efec0d975",
+              "parentUUID": "16df1237-ab45-4253-b957-36790cea9374",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8e4f1592-e17e-4e47-b1a2-ab78369ad0bb",
+            "abd7c19e-cf27-43f1-832d-6f4efec0d975"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 5808,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "video": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}

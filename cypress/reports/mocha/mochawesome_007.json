@@ -1,0 +1,127 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2022-04-08T04:49:06.786Z",
+    "end": "2022-04-08T04:49:14.977Z",
+    "duration": 8191,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "1e2db1ee-daff-464f-838b-bed6be70517d",
+      "title": "",
+      "fullFile": "cypress/integration/Login.spec.js",
+      "file": "cypress/integration/Login.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "55364212-ad2f-4f00-9c61-1a0c0dd4504a",
+          "title": "Sentryc Test Suite",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Testing Login with a valid email and a valid password",
+              "fullTitle": "Sentryc Test Suite Testing Login with a valid email and a valid password",
+              "timedOut": null,
+              "duration": 6221,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.validEmailValidPassword();",
+              "err": {},
+              "uuid": "cdf7ec29-87ba-499c-b10f-0de51d38dc37",
+              "parentUUID": "55364212-ad2f-4f00-9c61-1a0c0dd4504a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Testing Login with an invalid email and valid password",
+              "fullTitle": "Sentryc Test Suite Testing Login with an invalid email and valid password",
+              "timedOut": null,
+              "duration": 1919,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.invalidEmailValidPassword();",
+              "err": {},
+              "uuid": "d07dea94-db32-4c4d-aba6-ea0bd8f4dbac",
+              "parentUUID": "55364212-ad2f-4f00-9c61-1a0c0dd4504a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "cdf7ec29-87ba-499c-b10f-0de51d38dc37",
+            "d07dea94-db32-4c4d-aba6-ea0bd8f4dbac"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 8140,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "video": false
+      },
+      "version": "6.2.0"
+    }
+  }
+}
