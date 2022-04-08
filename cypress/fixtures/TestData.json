@@ -1,0 +1,6 @@
+{
+    "email_valid": "twentyfouraces@gmail.com",
+    "email_invalid":  "twentyfouraces@gmail",
+    "password_valid": "5$EjUt10YD",
+    "error_email_invalid": "The email format is invalid."
+}    
